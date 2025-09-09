@@ -9,8 +9,19 @@
   <link rel="icon" href={favicon} />
 </svelte:head>
 
-<SideNav>
-  <dev>Side nav content</dev>
-</SideNav>
+<div class="container">
+  <SideNav>
+    <div>Side nav content</div>
+  </SideNav>
 
-{@render children?.()}
+  <main>
+    {@render children?.()}
+  </main>
+</div>
+
+<style>
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+</style>
