@@ -7,10 +7,10 @@
 
   let { children } = $props();
 
-  const apiUrl = "#";
-  const chatUrl = "#";
-  const consoleUrl = "#";
-  const discoverUrl = "#";
+  const apiUrl = "https://api.example.com";
+  const chatUrl = "https://chat.example.com";
+  const consoleUrl = "https://console.example.com";
+  const discoverUrl = "https://discover.example.com";
 
   const profileMenuData = {
     userMeta: {
