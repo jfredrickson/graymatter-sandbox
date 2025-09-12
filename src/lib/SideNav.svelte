@@ -1,5 +1,4 @@
 <script lang="ts">
-  import "@gsa-tts/graymatter-ui/styles/base/global.css";
   import DesktopSideNav from "@gsa-tts/graymatter-ui/components/DesktopSideNav.svelte";
   import LogoutIcon from "@gsa-tts/graymatter-ui/assets/images/ai-icons/main-nav/logout.svg";
   import SettingsIcon from "@gsa-tts/graymatter-ui/assets/images/ai-icons/main-nav/settings.svg";
